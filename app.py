@@ -625,7 +625,7 @@ def main():
         
         diet_pref = st.selectbox(
             "Diet Preference",
-            ["Veg", "Non-Veg", "Vegan"],
+            ["Veg", "Non-Veg"],
             index=0
         )
         
