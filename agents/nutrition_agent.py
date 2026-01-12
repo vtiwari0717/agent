@@ -14,7 +14,6 @@ logger = logging.getLogger(__name__)
 class NutritionAgent:
     """
     Nutrition Agent for generating realistic, culturally coherent meal plans.
-    Implements 'Defense in Depth' to strictly enforce Veg / Non-Veg selection.
     """
 
     def __init__(self, csv_path: str = "expanded_food_dataset_10000.csv"):

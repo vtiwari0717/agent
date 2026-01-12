@@ -2,7 +2,6 @@
 LLM Agent Module.
 
 Handles natural language insights using Google Gemini.
-Includes TEACHER-SAFE logic:
 If the API fails for ANY reason, returns a clean fallback message.
 """
 
